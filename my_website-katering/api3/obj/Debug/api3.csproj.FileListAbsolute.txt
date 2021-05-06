@@ -1,0 +1,160 @@
+C:\React\project\C#\my_website-katering\api3\bin\api3.dll.config
+C:\React\project\C#\my_website-katering\api3\bin\api3.dll
+C:\React\project\C#\my_website-katering\api3\bin\api3.pdb
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\csc.exe
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\csc.exe.config
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\csc.rsp
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\csi.exe
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\csi.exe.config
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\csi.rsp
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.Managed.Core.targets
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.AppContext.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Collections.Immutable.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Console.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.IO.Compression.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.IO.FileSystem.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.IO.Pipes.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Reflection.Metadata.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Security.AccessControl.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Claims.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Principal.Windows.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.ValueTuple.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Xml.XmlDocument.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Xml.XPath.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\vbc.exe
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\vbc.exe.config
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\vbc.rsp
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\VBCSCompiler.exe
+C:\React\project\C#\my_website-katering\api3\bin\roslyn\VBCSCompiler.exe.config
+C:\React\project\C#\my_website-katering\api3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\React\project\C#\my_website-katering\api3\bin\Newtonsoft.Json.dll
+C:\React\project\C#\my_website-katering\api3\bin\System.Net.Http.Formatting.dll
+C:\React\project\C#\my_website-katering\api3\bin\System.Web.Cors.dll
+C:\React\project\C#\my_website-katering\api3\bin\System.Web.Http.Cors.dll
+C:\React\project\C#\my_website-katering\api3\bin\System.Web.Http.dll
+C:\React\project\C#\my_website-katering\api3\bin\System.Web.Http.WebHost.dll
+C:\React\project\C#\my_website-katering\api3\bin\System.Net.Http.Formatting.xml
+C:\React\project\C#\my_website-katering\api3\bin\System.Web.Http.xml
+C:\React\project\C#\my_website-katering\api3\bin\System.Web.Http.Cors.xml
+C:\React\project\C#\my_website-katering\api3\bin\Newtonsoft.Json.xml
+C:\React\project\C#\my_website-katering\api3\bin\System.Web.Http.WebHost.xml
+C:\React\project\C#\my_website-katering\api3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\React\project\C#\my_website-katering\api3\obj\Debug\api3.csprojAssemblyReference.cache
+C:\React\project\C#\my_website-katering\api3\obj\Debug\api3.csproj.CoreCompileInputs.cache
+C:\React\project\C#\my_website-katering\api3\obj\Debug\api3.csproj.CopyComplete
+C:\React\project\C#\my_website-katering\api3\obj\Debug\api3.dll
+C:\React\project\C#\my_website-katering\api3\obj\Debug\api3.pdb
+C:\React\project\C#\my_website-katering\api3\bin\Bl.dll
+C:\React\project\C#\my_website-katering\api3\bin\Dto.dll
+C:\React\project\C#\my_website-katering\api3\bin\EntityFramework.dll
+C:\React\project\C#\my_website-katering\api3\bin\EntityFramework.SqlServer.dll
+C:\React\project\C#\my_website-katering\api3\bin\Dal.dll
+C:\React\project\C#\my_website-katering\api3\bin\Bl.pdb
+C:\React\project\C#\my_website-katering\api3\bin\Bl.dll.config
+C:\React\project\C#\my_website-katering\api3\bin\Dto.pdb
+C:\React\project\C#\my_website-katering\api3\bin\Dto.dll.config
+C:\React\project\C#\my_website-katering\api3\bin\EntityFramework.xml
+C:\React\project\C#\my_website-katering\api3\bin\EntityFramework.SqlServer.xml
+C:\React\project\C#\my_website-katering\api3\bin\Dal.pdb
+C:\React\project\C#\my_website-katering\api3\bin\Dal.dll.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\api3.dll.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\api3.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\api3.pdb
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\csc.exe
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\csc.exe.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\csc.rsp
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\csi.exe
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\csi.exe.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\csi.rsp
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.AppContext.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Console.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.IO.Compression.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.IO.Pipes.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Claims.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.ValueTuple.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Xml.XPath.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\vbc.exe
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\vbc.exe.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\vbc.rsp
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\VBCSCompiler.exe
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Bl.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Dto.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\EntityFramework.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\EntityFramework.SqlServer.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Newtonsoft.Json.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Net.Http.Formatting.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Web.Cors.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Web.Http.Cors.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Web.Http.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Web.Http.WebHost.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Dal.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Bl.pdb
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Bl.dll.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Dto.pdb
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Dto.dll.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\EntityFramework.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\EntityFramework.SqlServer.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Net.Http.Formatting.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Web.Http.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Web.Http.Cors.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Newtonsoft.Json.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\System.Web.Http.WebHost.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Dal.pdb
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\bin\Dal.dll.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\obj\Debug\api3.csprojAssemblyReference.cache
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\obj\Debug\api3.csproj.CoreCompileInputs.cache
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\obj\Debug\api3.csproj.CopyComplete
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\obj\Debug\api3.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\api3\obj\Debug\api3.pdb

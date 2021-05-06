@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="myProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ContactU">
+    <Key>
+      <PropertyRef Name="idContactUs" />
+    </Key>
+    <Property Name="idContactUs" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="lastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="textC" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="isTreated" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="idCustomer" />
+    </Key>
+    <Property Name="idCustomer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="lastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="permissionCode" Type="Int32" />
+    <Property Name="password" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Customers" FromRole="Customers" ToRole="Orders" />
+    <NavigationProperty Name="Recommendations" Relationship="Self.FK_Recommendations_Customers" FromRole="Customers" ToRole="Recommendations" />
+  </EntityType>
+  <EntityType Name="Dish">
+    <Key>
+      <PropertyRef Name="idDose" />
+    </Key>
+    <Property Name="idDose" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="doseName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="doseDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="priceDose" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="statusMeal" Type="Int32" />
+    <Property Name="typeDose" Type="Int32" />
+    <Property Name="statusShabbat" Type="Int32" />
+    <Property Name="statusDosh" Type="Int32" />
+    <NavigationProperty Name="EventPackets" Relationship="Self.FK__EventPack__idDos__66603565" FromRole="Dishes" ToRole="EventPackets" />
+    <NavigationProperty Name="OrderDishes" Relationship="Self.FK__OrderDish__idDos__5165187F" FromRole="Dishes" ToRole="OrderDishes" />
+    <NavigationProperty Name="StatusDose" Relationship="Self.FK_Dishes_StatusDose" FromRole="Dishes" ToRole="StatusDose" />
+  </EntityType>
+  <EntityType Name="EventExtension">
+    <Key>
+      <PropertyRef Name="idExtra" />
+    </Key>
+    <Property Name="idExtra" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameExtra" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="priceExtra" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="ExtraToOrders" Relationship="Self.FK_ExtraToOrder_EventExtensions" FromRole="EventExtensions" ToRole="ExtraToOrder" />
+  </EntityType>
+  <EntityType Name="EventPacket">
+    <Key>
+      <PropertyRef Name="idEventpacket" />
+    </Key>
+    <Property Name="idEventpacket" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idDose" Type="Int32" />
+    <Property Name="amount" Type="Int32" />
+    <NavigationProperty Name="Dish" Relationship="Self.FK__EventPack__idDos__66603565" FromRole="EventPackets" ToRole="Dishes" />
+  </EntityType>
+  <EntityType Name="EventsType">
+    <Key>
+      <PropertyRef Name="idEvent" />
+    </Key>
+    <Property Name="idEvent" Type="Int32" Nullable="false" />
+    <Property Name="amountMin" Type="Int32" />
+    <Property Name="statusMeal" Type="Int32" />
+    <Property Name="priceAll" Type="Int32" />
+    <NavigationProperty Name="OrderArchives" Relationship="Self.FK__OrderArch__idEve__0F624AF8" FromRole="EventsType" ToRole="OrderArchive" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__idEvent__778AC167" FromRole="EventsType" ToRole="Orders" />
+    <Property Name="eventName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="isBasic" Type="Boolean" />
+    <Property Name="statusShabat" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ExtraToOrder">
+    <Key>
+      <PropertyRef Name="ExtraOrdId" />
+    </Key>
+    <Property Name="ExtraOrdId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idExtra" Type="Int32" Nullable="false" />
+    <Property Name="idOrder" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="EventExtension" Relationship="Self.FK_ExtraToOrder_EventExtensions" FromRole="ExtraToOrder" ToRole="EventExtensions" />
+    <NavigationProperty Name="Order" Relationship="Self.FK_ExtraToOrder_Orders" FromRole="ExtraToOrder" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="OrderArchive">
+    <Key>
+      <PropertyRef Name="idOrder" />
+    </Key>
+    <Property Name="idOrder" Type="Int32" Nullable="false" />
+    <Property Name="tz" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idEvent" Type="Int32" />
+    <Property Name="orderDetails" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="dateOrder" Type="DateTime" Precision="0" />
+    <Property Name="statusOrder" Type="Boolean" />
+    <NavigationProperty Name="EventsType" Relationship="Self.FK__OrderArch__idEve__0F624AF8" FromRole="OrderArchive" ToRole="EventsType" />
+  </EntityType>
+  <EntityType Name="OrderDish">
+    <Key>
+      <PropertyRef Name="idOrderDish" />
+    </Key>
+    <Property Name="idOrderDish" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idOrder" Type="Int32" />
+    <Property Name="idDose" Type="Int32" />
+    <NavigationProperty Name="Dish" Relationship="Self.FK__OrderDish__idDos__5165187F" FromRole="OrderDishes" ToRole="Dishes" />
+    <NavigationProperty Name="Order" Relationship="Self.FK_OrderDishes_Orders" FromRole="OrderDishes" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="idOrder" />
+    </Key>
+    <Property Name="idOrder" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCustomer" Type="Int32" />
+    <Property Name="idEvent" Type="Int32" />
+    <Property Name="dateOrder" Type="DateTime" Precision="0" />
+    <Property Name="statusOrder" Type="Boolean" />
+    <Property Name="nameEvent" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="amount" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Orders_Customers" FromRole="Orders" ToRole="Customers" />
+    <NavigationProperty Name="EventsType" Relationship="Self.FK__Orders__idEvent__778AC167" FromRole="Orders" ToRole="EventsType" />
+    <NavigationProperty Name="ExtraToOrders" Relationship="Self.FK_ExtraToOrder_Orders" FromRole="Orders" ToRole="ExtraToOrder" />
+    <NavigationProperty Name="OrderDishes" Relationship="Self.FK_OrderDishes_Orders" FromRole="Orders" ToRole="OrderDishes" />
+    <Property Name="dateInsert" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Recommendation">
+    <Key>
+      <PropertyRef Name="idRecommendations" />
+    </Key>
+    <Property Name="idCustomer" Type="Int32" Nullable="false" />
+    <Property Name="dateR" Type="DateTime" Precision="0" />
+    <Property Name="textR" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="idRecommendations" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="isDisplay" Type="Boolean" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Recommendations_Customers" FromRole="Recommendations" ToRole="Customers" />
+  </EntityType>
+  <EntityType Name="StatusDose">
+    <Key>
+      <PropertyRef Name="idStatusDose" />
+    </Key>
+    <Property Name="idStatusDose" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="statusDoseName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sumChooseBase" Type="Int32" />
+    <Property Name="sumChooseUpgrade" Type="Int32" />
+    <Property Name="IsDisplayBase" Type="Boolean" />
+    <NavigationProperty Name="Dishes" Relationship="Self.FK_Dishes_StatusDose" FromRole="StatusDose" ToRole="Dishes" />
+  </EntityType>
+  <Association Name="FK_Orders_Customers">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="idCustomer" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="idCustomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recommendations_Customers">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Recommendations" Type="Self.Recommendation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="idCustomer" />
+      </Principal>
+      <Dependent Role="Recommendations">
+        <PropertyRef Name="idCustomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EventPack__idDos__66603565">
+    <End Role="Dishes" Type="Self.Dish" Multiplicity="0..1" />
+    <End Role="EventPackets" Type="Self.EventPacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dishes">
+        <PropertyRef Name="idDose" />
+      </Principal>
+      <Dependent Role="EventPackets">
+        <PropertyRef Name="idDose" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderDish__idDos__5165187F">
+    <End Role="Dishes" Type="Self.Dish" Multiplicity="0..1" />
+    <End Role="OrderDishes" Type="Self.OrderDish" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dishes">
+        <PropertyRef Name="idDose" />
+      </Principal>
+      <Dependent Role="OrderDishes">
+        <PropertyRef Name="idDose" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Dishes_StatusDose">
+    <End Role="StatusDose" Type="Self.StatusDose" Multiplicity="0..1" />
+    <End Role="Dishes" Type="Self.Dish" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusDose">
+        <PropertyRef Name="idStatusDose" />
+      </Principal>
+      <Dependent Role="Dishes">
+        <PropertyRef Name="statusDosh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExtraToOrder_EventExtensions">
+    <End Role="EventExtensions" Type="Self.EventExtension" Multiplicity="1" />
+    <End Role="ExtraToOrder" Type="Self.ExtraToOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventExtensions">
+        <PropertyRef Name="idExtra" />
+      </Principal>
+      <Dependent Role="ExtraToOrder">
+        <PropertyRef Name="idExtra" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderArch__idEve__0F624AF8">
+    <End Role="EventsType" Type="Self.EventsType" Multiplicity="0..1" />
+    <End Role="OrderArchive" Type="Self.OrderArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventsType">
+        <PropertyRef Name="idEvent" />
+      </Principal>
+      <Dependent Role="OrderArchive">
+        <PropertyRef Name="idEvent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__idEvent__778AC167">
+    <End Role="EventsType" Type="Self.EventsType" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventsType">
+        <PropertyRef Name="idEvent" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="idEvent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExtraToOrder_Orders">
+    <End Role="Orders" Type="Self.Order" Multiplicity="1" />
+    <End Role="ExtraToOrder" Type="Self.ExtraToOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="idOrder" />
+      </Principal>
+      <Dependent Role="ExtraToOrder">
+        <PropertyRef Name="idOrder" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDishes_Orders">
+    <End Role="Orders" Type="Self.Order" Multiplicity="0..1" />
+    <End Role="OrderDishes" Type="Self.OrderDish" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="idOrder" />
+      </Principal>
+      <Dependent Role="OrderDishes">
+        <PropertyRef Name="idOrder" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="myProjectEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ContactUs" EntityType="Self.ContactU" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Dishes" EntityType="Self.Dish" />
+    <EntitySet Name="EventExtensions" EntityType="Self.EventExtension" />
+    <EntitySet Name="EventPackets" EntityType="Self.EventPacket" />
+    <EntitySet Name="EventsTypes" EntityType="Self.EventsType" />
+    <EntitySet Name="ExtraToOrders" EntityType="Self.ExtraToOrder" />
+    <EntitySet Name="OrderArchives" EntityType="Self.OrderArchive" />
+    <EntitySet Name="OrderDishes" EntityType="Self.OrderDish" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <EntitySet Name="Recommendations" EntityType="Self.Recommendation" />
+    <EntitySet Name="StatusDoses" EntityType="Self.StatusDose" />
+    <AssociationSet Name="FK_Orders_Customers" Association="Self.FK_Orders_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recommendations_Customers" Association="Self.FK_Recommendations_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Recommendations" EntitySet="Recommendations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EventPack__idDos__66603565" Association="Self.FK__EventPack__idDos__66603565">
+      <End Role="Dishes" EntitySet="Dishes" />
+      <End Role="EventPackets" EntitySet="EventPackets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderDish__idDos__5165187F" Association="Self.FK__OrderDish__idDos__5165187F">
+      <End Role="Dishes" EntitySet="Dishes" />
+      <End Role="OrderDishes" EntitySet="OrderDishes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Dishes_StatusDose" Association="Self.FK_Dishes_StatusDose">
+      <End Role="StatusDose" EntitySet="StatusDoses" />
+      <End Role="Dishes" EntitySet="Dishes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExtraToOrder_EventExtensions" Association="Self.FK_ExtraToOrder_EventExtensions">
+      <End Role="EventExtensions" EntitySet="EventExtensions" />
+      <End Role="ExtraToOrder" EntitySet="ExtraToOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderArch__idEve__0F624AF8" Association="Self.FK__OrderArch__idEve__0F624AF8">
+      <End Role="EventsType" EntitySet="EventsTypes" />
+      <End Role="OrderArchive" EntitySet="OrderArchives" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__idEvent__778AC167" Association="Self.FK__Orders__idEvent__778AC167">
+      <End Role="EventsType" EntitySet="EventsTypes" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExtraToOrder_Orders" Association="Self.FK_ExtraToOrder_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="ExtraToOrder" EntitySet="ExtraToOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDishes_Orders" Association="Self.FK_OrderDishes_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderDishes" EntitySet="OrderDishes" />
+    </AssociationSet>
+    <FunctionImport Name="trybracha" ReturnType="Collection(myProjectModel.trybracha_Result)" />
+  </EntityContainer>
+  <ComplexType Name="trybracha_Result">
+    <Property Type="Int32" Name="idDose" Nullable="false" />
+    <Property Type="String" Name="doseName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="doseDescription" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="priceDose" Nullable="true" Precision="19" />
+    <Property Type="Binary" Name="picture" Nullable="true" MaxLength="Max" />
+    <Property Type="Int32" Name="statusMeal" Nullable="true" />
+    <Property Type="Int32" Name="typeDose" Nullable="true" />
+    <Property Type="Int32" Name="statusShabbat" Nullable="true" />
+    <Property Type="Int32" Name="statusDosh" Nullable="true" />
+  </ComplexType>
+</Schema>

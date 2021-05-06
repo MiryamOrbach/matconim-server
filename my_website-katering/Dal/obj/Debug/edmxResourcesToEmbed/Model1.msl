@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="myProjectModelStoreContainer" CdmEntityContainer="myProjectEntities">
+    <EntitySetMapping Name="ContactUs">
+      <EntityTypeMapping TypeName="myProjectModel.ContactU">
+        <MappingFragment StoreEntitySet="ContactUs">
+          <ScalarProperty Name="idContactUs" ColumnName="idContactUs" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="textC" ColumnName="textC" />
+          <ScalarProperty Name="isTreated" ColumnName="isTreated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="myProjectModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="idCustomer" ColumnName="idCustomer" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="permissionCode" ColumnName="permissionCode" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dishes">
+      <EntityTypeMapping TypeName="myProjectModel.Dish">
+        <MappingFragment StoreEntitySet="Dishes">
+          <ScalarProperty Name="idDose" ColumnName="idDose" />
+          <ScalarProperty Name="doseName" ColumnName="doseName" />
+          <ScalarProperty Name="doseDescription" ColumnName="doseDescription" />
+          <ScalarProperty Name="priceDose" ColumnName="priceDose" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+          <ScalarProperty Name="statusMeal" ColumnName="statusMeal" />
+          <ScalarProperty Name="typeDose" ColumnName="typeDose" />
+          <ScalarProperty Name="statusShabbat" ColumnName="statusShabbat" />
+          <ScalarProperty Name="statusDosh" ColumnName="statusDosh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventExtensions">
+      <EntityTypeMapping TypeName="myProjectModel.EventExtension">
+        <MappingFragment StoreEntitySet="EventExtensions">
+          <ScalarProperty Name="idExtra" ColumnName="idExtra" />
+          <ScalarProperty Name="nameExtra" ColumnName="nameExtra" />
+          <ScalarProperty Name="priceExtra" ColumnName="priceExtra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventPackets">
+      <EntityTypeMapping TypeName="myProjectModel.EventPacket">
+        <MappingFragment StoreEntitySet="EventPackets">
+          <ScalarProperty Name="idEventpacket" ColumnName="idEventpacket" />
+          <ScalarProperty Name="idDose" ColumnName="idDose" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventsTypes">
+      <EntityTypeMapping TypeName="myProjectModel.EventsType">
+        <MappingFragment StoreEntitySet="EventsType">
+          <ScalarProperty Name="statusShabat" ColumnName="statusShabat" />
+          <ScalarProperty Name="isBasic" ColumnName="isBasic" />
+          <ScalarProperty Name="eventName" ColumnName="eventName" />
+          <ScalarProperty Name="idEvent" ColumnName="idEvent" />
+          <ScalarProperty Name="amountMin" ColumnName="amountMin" />
+          <ScalarProperty Name="statusMeal" ColumnName="statusMeal" />
+          <ScalarProperty Name="priceAll" ColumnName="priceAll" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExtraToOrders">
+      <EntityTypeMapping TypeName="myProjectModel.ExtraToOrder">
+        <MappingFragment StoreEntitySet="ExtraToOrder">
+          <ScalarProperty Name="ExtraOrdId" ColumnName="ExtraOrdId" />
+          <ScalarProperty Name="idExtra" ColumnName="idExtra" />
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderArchives">
+      <EntityTypeMapping TypeName="myProjectModel.OrderArchive">
+        <MappingFragment StoreEntitySet="OrderArchive">
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="tz" ColumnName="tz" />
+          <ScalarProperty Name="idEvent" ColumnName="idEvent" />
+          <ScalarProperty Name="orderDetails" ColumnName="orderDetails" />
+          <ScalarProperty Name="dateOrder" ColumnName="dateOrder" />
+          <ScalarProperty Name="statusOrder" ColumnName="statusOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDishes">
+      <EntityTypeMapping TypeName="myProjectModel.OrderDish">
+        <MappingFragment StoreEntitySet="OrderDishes">
+          <ScalarProperty Name="idOrderDish" ColumnName="idOrderDish" />
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="idDose" ColumnName="idDose" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="myProjectModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="dateInsert" ColumnName="dateInsert" />
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="idCustomer" ColumnName="idCustomer" />
+          <ScalarProperty Name="idEvent" ColumnName="idEvent" />
+          <ScalarProperty Name="dateOrder" ColumnName="dateOrder" />
+          <ScalarProperty Name="statusOrder" ColumnName="statusOrder" />
+          <ScalarProperty Name="nameEvent" ColumnName="nameEvent" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recommendations">
+      <EntityTypeMapping TypeName="myProjectModel.Recommendation">
+        <MappingFragment StoreEntitySet="Recommendations">
+          <ScalarProperty Name="idCustomer" ColumnName="idCustomer" />
+          <ScalarProperty Name="dateR" ColumnName="dateR" />
+          <ScalarProperty Name="textR" ColumnName="textR" />
+          <ScalarProperty Name="idRecommendations" ColumnName="idRecommendations" />
+          <ScalarProperty Name="isDisplay" ColumnName="isDisplay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusDoses">
+      <EntityTypeMapping TypeName="myProjectModel.StatusDose">
+        <MappingFragment StoreEntitySet="StatusDose">
+          <ScalarProperty Name="idStatusDose" ColumnName="idStatusDose" />
+          <ScalarProperty Name="statusDoseName" ColumnName="statusDoseName" />
+          <ScalarProperty Name="sumChooseBase" ColumnName="sumChooseBase" />
+          <ScalarProperty Name="sumChooseUpgrade" ColumnName="sumChooseUpgrade" />
+          <ScalarProperty Name="IsDisplayBase" ColumnName="IsDisplayBase" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="trybracha" FunctionName="myProjectModel.Store.trybracha">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="myProjectModel.trybracha_Result">
+          <ScalarProperty Name="idDose" ColumnName="idDose" />
+          <ScalarProperty Name="doseName" ColumnName="doseName" />
+          <ScalarProperty Name="doseDescription" ColumnName="doseDescription" />
+          <ScalarProperty Name="priceDose" ColumnName="priceDose" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+          <ScalarProperty Name="statusMeal" ColumnName="statusMeal" />
+          <ScalarProperty Name="typeDose" ColumnName="typeDose" />
+          <ScalarProperty Name="statusShabbat" ColumnName="statusShabbat" />
+          <ScalarProperty Name="statusDosh" ColumnName="statusDosh" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

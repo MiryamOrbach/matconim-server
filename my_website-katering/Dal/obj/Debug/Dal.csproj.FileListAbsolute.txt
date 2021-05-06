@@ -1,0 +1,36 @@
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\bin\Debug\Dal.dll
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\bin\Debug\Dal.pdb
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\obj\Debug\Dal.dll
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\obj\Debug\Dal.pdb
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\bin\Debug\Dal.dll.config
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\bin\Debug\EntityFramework.dll
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\bin\Debug\EntityFramework.xml
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\צביה מחשבים\יד\שיעורי קורונה\הפרוייקטטט\Project_Catering\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\React\project\C#\my_website-katering\Dal\bin\Debug\Dal.dll.config
+C:\React\project\C#\my_website-katering\Dal\bin\Debug\Dal.dll
+C:\React\project\C#\my_website-katering\Dal\bin\Debug\Dal.pdb
+C:\React\project\C#\my_website-katering\Dal\bin\Debug\EntityFramework.dll
+C:\React\project\C#\my_website-katering\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\React\project\C#\my_website-katering\Dal\bin\Debug\EntityFramework.xml
+C:\React\project\C#\my_website-katering\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\React\project\C#\my_website-katering\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\React\project\C#\my_website-katering\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\React\project\C#\my_website-katering\Dal\obj\Debug\Dal.dll
+C:\React\project\C#\my_website-katering\Dal\obj\Debug\Dal.pdb
+C:\React\project\C#\my_website-katering\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\bin\Debug\Dal.dll.config
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\bin\Debug\Dal.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\bin\Debug\Dal.pdb
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\bin\Debug\EntityFramework.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\bin\Debug\EntityFramework.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\obj\Debug\Dal.dll
+C:\Users\משפחת קנל\Documents\מירי פרויקטים\projectfinal\project\C#\my_website-katering\Dal\obj\Debug\Dal.pdb
